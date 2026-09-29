@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy policy — Life in 22 Taps</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root{
+    --ink:#141413; --muted:#5B6169; --line:#E5E7EB;
+    --blue:#2743A6; --gold1:#F6D06B; --gold2:#D9A62E; --bg:#ffffff; --panel:#F7F7F5;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#F3F3F1; --muted:#A5ABB3; --line:#2E3136; --bg:#141413; --panel:#1D1F21;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#F3F3F1; --muted:#A5ABB3; --line:#2E3136; --bg:#141413; --panel:#1D1F21;
+  }
+  *,*::before,*::after{box-sizing:inherit}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:17px;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:40px 22px 80px}
+  header{border-bottom:1px solid var(--line); padding-bottom:26px; margin-bottom:34px}
+  .brand{font-size:29px; font-weight:800; color:var(--blue); letter-spacing:-.5px; margin:0}
+  .rule{height:7px; width:186px; border-radius:4px; margin-top:8px;
+        background:linear-gradient(90deg,var(--gold1) 0%,var(--gold2) 100%)}
+  h1{font-size:25px; margin:26px 0 6px; letter-spacing:-.3px}
+  h2{font-size:19px; margin:34px 0 8px; letter-spacing:-.2px}
+  p{margin:0 0 14px}
+  .muted{color:var(--muted)}
+  .lede{font-size:19px}
+  .panel{background:var(--panel); border-radius:14px; padding:18px 20px; margin:22px 0}
+  ul{margin:0 0 14px; padding-left:20px}
+  li{margin-bottom:7px}
+  a{color:var(--blue)}
+  table{width:100%; border-collapse:collapse; margin:10px 0 18px; font-size:16px; display:block; overflow-x:auto}
+  th,td{text-align:left; padding:11px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-weight:700}
+  footer{margin-top:46px; padding-top:22px; border-top:1px solid var(--line); font-size:15px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="brand"><a href="/" style="color:inherit;text-decoration:none">Life in 22 Taps</a></p>
+    <div class="rule"></div>
+  </header>
+
+  <h1>Privacy policy</h1>
+  <p class="muted">Last updated 29 September 2026</p>
+
+  <p class="lede">Life in 22 Taps does not collect your data. There is no account, no sign-up,
+  no analytics and no tracking. Everything the app knows about you stays on your phone.</p>
+
+  <div class="panel">
+    <p style="margin:0"><strong>In one line:</strong> we have no server, so there is nowhere for
+    your information to go.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Life in 22 Taps is published by <strong>Myrvo Technologies Ltd</strong>, a company registered
+  in England and Wales (company number 17034685), Chandos Business Centre, Warwick Street,
+  Leamington Spa, CV32 4RJ, United Kingdom. Contact us at
+  <a href="mailto:support@lifein22taps.com">support@lifein22taps.com</a>.</p>
+
+  <h2>What the app reads</h2>
+  <p>To sort your apps into life areas, the app reads the list of apps installed on your phone —
+  their names, icons and package names. This is the same list your phone already shows in its own
+  app drawer. It is read while the app is open, used to draw the screen, and never sent anywhere.</p>
+  <p><strong>Nothing is requested when you install the app.</strong> It cannot read your contacts,
+  messages, photos, location, camera or microphone, because it never asks for access to them.</p>
+  <p>Two optional features ask Android for a specific access, and only at the moment you switch
+  them on yourself: <strong>notification dots</strong> and <strong>the forgotten-apps list</strong>.
+  Both are described below, both are off until you turn them on, and either can be withdrawn at any
+  time in Android’s own settings.</p>
+
+  <h2>Notification dots (optional, off by default)</h2>
+  <p>If you switch on notification dots in settings, Android will ask you to grant
+  <strong>Notification access</strong>. Android describes this access broadly, because an app with it
+  <em>could</em> read notifications. Life in 22 Taps uses it for one thing only: to know
+  <strong>which app</strong> has a notification, so it can show a red dot and a count on that app and
+  its tile.</p>
+  <ul>
+    <li>It never reads a notification’s title, text, sender or pictures.</li>
+    <li>It stores nothing about your notifications; the counts exist only in memory while the app runs.</li>
+    <li>It sends nothing anywhere. The app has no internet access.</li>
+    <li>Dots on a locked tile are hidden, so a lock never reveals what’s behind it.</li>
+  </ul>
+  <p>If you never switch dots on, Android never grants the access and none of this happens. You can
+  switch dots off in the app, and remove the access completely in Android’s own settings, at
+  any time.</p>
+
+  <h2>What is stored, and where</h2>
+  <table>
+    <tr><th>What</th><th>Where it is kept</th></tr>
+    <tr><td>Favourites and recently opened apps</td><td>On your phone only</td></tr>
+    <tr><td>Apps you have moved to a different tile</td><td>On your phone only</td></tr>
+    <tr><td>Locked tiles and your Parent PIN</td><td>On your phone only, and the PIN is stored as a salted hash, never as the PIN itself</td></tr>
+    <tr><td>Your colour choice, offers country, tile transparency, and whether the Offers tile is shown</td><td>On your phone only</td></tr>
+  </table>
+  <p>None of this is transmitted. Uninstalling the app removes all of it.</p>
+
+  <h2>Backups you create</h2>
+  <p>The app can save your settings to a file that you choose the location for. That file is yours:
+  we never see it, and it goes wherever you put it. If you save it to a cloud service, that
+  service's own privacy policy applies to it.</p>
+
+  <h2>Crash reports</h2>
+  <p>If the app stops unexpectedly, it writes the technical error to a file on your phone so you
+  can see what happened. Nothing is sent automatically. If you choose to share a crash report or an
+  app list with us by email, we use it only to fix the problem and to improve how apps are sorted,
+  and we delete it when that is done.</p>
+
+  <h2>Offers and events</h2>
+  <p>The Offers tile shows local deals, events and sponsored items. Sponsors pay for these slots,
+  and that is the only advertising in the app.</p>
+  <p>Offers are <strong>shipped inside the app itself</strong> and change with the weekly update.
+  Nothing is fetched from a server, because the app has no internet access. Which offers you see
+  depends on one thing: the country code your SIM reports, or the country you set yourself in
+  settings. That check happens on your phone, needs no permission, uses no location, and the result
+  is never sent anywhere.</p>
+  <p>We do not profile you. Advertisers are given no information about you, not even a count of who
+  saw an offer. Nothing appears over your other apps: Offers is a single tile you choose to open,
+  and you can switch it off completely in settings.</p>
+
+  <h2>Apps you have not opened in a year (optional, off by default)</h2>
+  <p>This is a tidy-up list in settings. Android will only tell an app when another app was last
+  opened if you grant <strong>Usage access</strong>, so the list stays empty until you do.</p>
+  <ul>
+    <li>It reads one thing per app: <strong>the date it was last opened</strong>. Not what you did
+    in it, not how long for, not how often.</li>
+    <li>It stores nothing. The dates are read while the list is on screen and then forgotten.</li>
+    <li>It sends nothing anywhere. The app has no internet access.</li>
+    <li>Apps that came with your phone are left out, and the app never removes anything: tapping an
+    entry opens Android’s own page for that app, where you decide.</li>
+  </ul>
+  <p>If you never switch it on, Android never grants the access and none of this happens.</p>
+
+  <h2>Buying the app</h2>
+  <p>Life in 22 Taps is a paid app. Payment is handled entirely by Google Play, under Google’s own
+  terms and privacy policy. We never see your card details, your address or your Google account.
+  Refunds are requested through Google Play, not through us.</p>
+
+  <h2>Children</h2>
+  <p>Life in 22 Taps is a general organiser for everyone, not a service aimed at children. It
+  collects no data from anyone, including children. The tile-locking feature is a tidying tool
+  operated by the person holding the phone; it is not a monitoring or supervision service, and it
+  does not report to anyone.</p>
+
+  <h2>Your rights</h2>
+  <p>Data protection law gives you rights to access, correct and erase personal data held about
+  you. Because we hold none, there is nothing for us to give you or delete. Deleting the app
+  removes everything it has stored on your phone. If you have emailed us a report, write to us and
+  we will delete it.</p>
+
+  <h2>This website</h2>
+  <p>lifein22taps.com sets no cookies, uses no analytics and loads nothing from other sites.
+  Like any web host, the company that hosts it keeps standard server logs, such as IP
+  addresses, to run and protect the service. We don't use those logs to identify anyone.</p>
+
+  <h2>If this changes</h2>
+  <p>If a future version of the app collects or transmits anything, we will update this page before
+  that version is released, and say plainly what changed and why. The date at the top always shows
+  when this policy was last revised.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy, or about anything the app does:
+  <a href="mailto:support@lifein22taps.com">support@lifein22taps.com</a>. We aim to reply within
+  five working days.</p>
+
+  <h2>Complaints and grievances</h2>
+  <div class="panel">
+    <p style="margin:0 0 6px"><strong>Grievance Officer:</strong> Hitesh Biyani</p>
+    <p style="margin:0 0 6px">Myrvo Technologies Ltd, Chandos Business Centre, Warwick Street,
+    Leamington Spa, CV32 4RJ, United Kingdom</p>
+    <p style="margin:0"><a href="mailto:grievance@lifein22taps.com">grievance@lifein22taps.com</a></p>
+  </div>
+  <p>Write to the address above about anything in the app that concerns you, including an offer you
+  believe should not be shown. We acknowledge complaints within 24 hours and aim to resolve them
+  within 15 days.</p>
+  <p>In the United Kingdom you may also complain to the Information Commissioner’s Office at
+  <a href="https://ico.org.uk">ico.org.uk</a>.</p>
+
+  <footer class="muted">
+    Life in 22 Taps™ · Myrvo Technologies Ltd · Registered in England and Wales,
+    company number 17034685 · <a href="https://lifein22taps.com">lifein22taps.com</a> ·
+    <a href="https://myrvo.tech">myrvo.tech</a>
+  </footer>
+
+</div>
+</body>
+</html>
