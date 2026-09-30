@@ -4,71 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy policy — Life in 22 Taps</title>
+<meta name="description" content="Life in 22 Taps collects no data. What the app reads, what it stores on your phone, and who to contact.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
 <style>
-  :root{
-    --ink:#141413; --muted:#5B6169; --line:#E5E7EB;
-    --blue:#2743A6; --gold1:#F6D06B; --gold2:#D9A62E; --bg:#ffffff; --panel:#F7F7F5;
-    box-sizing:border-box;
-    padding-top:env(safe-area-inset-top,0px);
-    padding-bottom:env(safe-area-inset-bottom,0px);
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --ink:#F3F3F1; --muted:#A5ABB3; --line:#2E3136; --bg:#141413; --panel:#1D1F21;
-    }
-  }
-  :root[data-theme="dark"]{
-    --ink:#F3F3F1; --muted:#A5ABB3; --line:#2E3136; --bg:#141413; --panel:#1D1F21;
-  }
-  *,*::before,*::after{box-sizing:inherit}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.62; font-size:17px;
-  }
-  .wrap{max-width:720px; margin:0 auto; padding:40px 22px 80px}
-  header{border-bottom:1px solid var(--line); padding-bottom:26px; margin-bottom:34px}
-  .brand{font-size:29px; font-weight:800; color:var(--blue); letter-spacing:-.5px; margin:0}
-  .rule{height:7px; width:186px; border-radius:4px; margin-top:8px;
-        background:linear-gradient(90deg,var(--gold1) 0%,var(--gold2) 100%)}
-  h1{font-size:25px; margin:26px 0 6px; letter-spacing:-.3px}
-  h2{font-size:19px; margin:34px 0 8px; letter-spacing:-.2px}
-  p{margin:0 0 14px}
-  .muted{color:var(--muted)}
-  .lede{font-size:19px}
-  .panel{background:var(--panel); border-radius:14px; padding:18px 20px; margin:22px 0}
-  ul{margin:0 0 14px; padding-left:20px}
-  li{margin-bottom:7px}
-  a{color:var(--blue)}
-  table{width:100%; border-collapse:collapse; margin:10px 0 18px; font-size:16px; display:block; overflow-x:auto}
-  th,td{text-align:left; padding:11px 12px; border-bottom:1px solid var(--line); vertical-align:top}
-  th{font-weight:700}
-  footer{margin-top:46px; padding-top:22px; border-top:1px solid var(--line); font-size:15px}
+  /* A policy has many headings: keep them smaller than the site's section titles. */
+  .policy h2{font-size:21px;letter-spacing:-.2px;margin:34px 0 8px}
+  .policy .lede{font-size:19px}
+  .policy .box{margin:22px 0}
+  .policy ul{margin:0 0 14px;padding-left:20px}
+  .policy li{margin-bottom:7px}
+  .policy table{margin:10px 0 18px}
 </style>
 </head>
 <body>
 <div class="wrap">
-
-  <header>
-    <p class="brand"><a href="/" style="color:inherit;text-decoration:none">Life in 22 Taps</a></p>
-    <div class="rule"></div>
+  <header class="top">
+    <a class="brand" href="/">Life in 22 Taps</a>
+    <nav aria-label="Main">
+      <a href="/help/">Help</a>
+      <a href="/advertise/">For businesses</a>
+      <a href="/privacy/" aria-current="page">Privacy</a>
+    </nav>
   </header>
-
-  <h1>Privacy policy</h1>
-  <p class="muted">Last updated 29 September 2026</p>
+  <main class="narrow policy" style="padding:30px 0 60px">
+    <h1 style="font-size:40px;line-height:1.1;letter-spacing:-.8px;margin:0 0 6px;color:var(--blue-deep)">Privacy policy</h1>
+    <p class="muted">Last updated 30 September 2026</p>
 
   <p class="lede">Life in 22 Taps does not collect your data. There is no account, no sign-up,
   no analytics and no tracking. Everything the app knows about you stays on your phone.</p>
 
-  <div class="panel">
+  <div class="box">
     <p style="margin:0"><strong>In one line:</strong> we have no server, so there is nowhere for
     your information to go.</p>
   </div>
 
   <h2>Who we are</h2>
   <p>Life in 22 Taps is published by <strong>Myrvo Technologies Ltd</strong>, a company registered
-  in England and Wales (company number 17034685), Chandos Business Centre, Warwick Street,
+  in England and Wales (company number 17034685), Chandos Business Centre, 87 A Warwick Street,
   Leamington Spa, CV32 4RJ, United Kingdom. Contact us at
   <a href="mailto:support@lifein22taps.com">support@lifein22taps.com</a>.</p>
 
@@ -178,9 +151,9 @@
   five working days.</p>
 
   <h2>Complaints and grievances</h2>
-  <div class="panel">
+  <div class="box">
     <p style="margin:0 0 6px"><strong>Grievance Officer:</strong> Hitesh Biyani</p>
-    <p style="margin:0 0 6px">Myrvo Technologies Ltd, Chandos Business Centre, Warwick Street,
+    <p style="margin:0 0 6px">Myrvo Technologies Ltd, Chandos Business Centre, 87 A Warwick Street,
     Leamington Spa, CV32 4RJ, United Kingdom</p>
     <p style="margin:0"><a href="mailto:grievance@lifein22taps.com">grievance@lifein22taps.com</a></p>
   </div>
@@ -190,12 +163,17 @@
   <p>In the United Kingdom you may also complain to the Information Commissioner’s Office at
   <a href="https://ico.org.uk">ico.org.uk</a>.</p>
 
-  <footer class="muted">
-    Life in 22 Taps™ · Myrvo Technologies Ltd · Registered in England and Wales,
-    company number 17034685 · <a href="https://lifein22taps.com">lifein22taps.com</a> ·
-    <a href="https://myrvo.tech">myrvo.tech</a>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <a href="/help/">Help</a><a href="/advertise/">For businesses</a><a href="/privacy/">Privacy</a>
+      <a href="mailto:support@lifein22taps.com">support@lifein22taps.com</a>
+    </nav>
+    <p>Life in 22 Taps™ is published by Myrvo Technologies Ltd, registered in England and
+    Wales, company number 17034685. Registered office: Chandos Business Centre, 87 A Warwick
+    Street, Leamington Spa, CV32 4RJ.</p>
+    <p>This website sets no cookies and uses no analytics. Google Play is a trademark of Google LLC.</p>
   </footer>
-
 </div>
 </body>
 </html>
